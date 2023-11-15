@@ -7,7 +7,7 @@ export default function Machine (props){
     const styleMachine = {border: '5px solid blue', backgroundColor: 'pink', marginBottom: '10px', padding: '10px'} 
     function AjouterAuPanier() {
         SetPanier([...panier,props.infos])
-        alert(`le PC de réference : ${reference} est bien ajouté dans le panier`)
+        alert(`la machine de réference : ${reference} est bien ajouté dans le panier`)
     }
     return (
         <li style={styleMachine}>
